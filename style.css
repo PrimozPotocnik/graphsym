@@ -1,9 +1,6 @@
 a {
   color: #0b3a80;
 }
-/* .notworking {
-  color: red;
-} */
 .nounderline {
   text-decoration: none;
 }
@@ -11,14 +8,48 @@ a {
   height: 200px;
   background: var(--bs-dark);
 }
-.glavno {
-  position: relative;
-}
-.opis {
-  word-break: break-word;
-}
 .center-center {
   margin: auto;
+}
+.box {
+  padding: 20px;
+  margin: 15px;
+  border-radius: 5px;
+  border: solid rgb(203, 203, 203) 0.5px;
+  box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.1);
+}
+.news {
+  background: rgb(245, 245, 220);
+  background: 
+  url("noise.png"), 
+    linear-gradient(
+      135deg,
+      rgba(245, 245, 220, 1) 0%,
+      rgba(254, 236, 163, 1) 23%,
+      rgba(237, 193, 94, 1) 100%
+    );
+}
+.date {
+  color: #810f00;
+  font-family: monospace;
+  border-radius: 5px;
+  padding: 3px;
+}
+.links {
+  background: rgb(121, 165, 247);
+  background: 
+    url("noise.png"),
+    linear-gradient(330deg, #54daff 0%, #92fe9d 100%);
+}
+.shadow {
+  -webkit-box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.1) !important;
+  -moz-box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.1) !important;
+  box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.1) !important;
+}
+.noise {
+  background: url("noise.png");
 }
 details p {
   padding-left: 20px;
