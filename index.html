@@ -21,7 +21,7 @@
   <div class="container-xxl mt-5 px-sm-5">
     <div class="row">
       <div class="col-lg-8 mb-5">
-        <h4>Cubic Vertex-Transitive Graphs</h4>
+        <h4>Vertex-Transitive Graphs</h4>
         <hr>
 
         <details>
@@ -37,12 +37,25 @@
             Using similar techniques as described in the paper [P. Potočnik, P. Spiga, G. Verret, <a href="http://arxiv.org/abs/1201.5317"> Cubic vertex-transitive graphs on up to 1280 vertices,</a> Journal of Symbolic Computation 50 (2013), 465-477] a complete list of all cubic Cayley graphs on up to 5000 vertices was determined. There are 1939864 of them. Group theoretical computations were performed using <a href="http://magma.maths.usyd.edu.au/magma/">Magma</a>, while reduction modulo graph isomorphism and other graph manipulations were done with the help of <a href="https://pallini.di.uniroma1.it">Nauty</a> (version 2_8_8). Graphs are available in <a href="https://users.cecs.anu.edu.au/~bdm/data/formats.html">sparse6</a> format:
             <ul>
               <li><a href="https://users.fmf.uni-lj.si/potocnik/CubicCay/CubicCayUpTo4094.zip">orders 4 to 4094</a> (7.2 GB)</li>
+              <li><a href="http://atlas.graphsym.net/Cay3val/CubicCayUpTo4094.zip">orders 4 to 4094</a> (7.2 GB)</li>
               <li><a href="https://users.fmf.uni-lj.si/potocnik/CubicCay/CubicCayFrom4096to5000.zip">orders 4096 to 5000</a> (8.0 GB)</li>
             </ul>
             As predicted by (a version of) Lovász' conjecture and checked by <a href="https://users.cecs.anu.edu.au/~bdm/">Brendan McKay</a> (using hamheuristic command in Nauty), each of these graphs possesses a Hamiltonian cycle.
           </p>
         </details>
 
+        <details>
+          <summary>Census of Tetravalent Cayley graphs on up to 1025 vertices (R. Evans, P. Potočnik)</summary>
+          <p>
+            Using a mixed bag of different techniques, a complete list of all connected 4-valent Cayley graphs, currently up to order 1025, was computed. The following zipped file contains the list of graphs in <a href="https://users.cecs.anu.edu.au/~bdm/data/formats.html">sparse6</a> format:
+            <ul>
+              <li><a href="http://atlas.graphsym.net/Cay4val/Cay4valUpTo1025.zip">Orders up to 1025</a> (roughly 24 GB)</li>
+            </ul>
+            Unzipping will result in a folder containing one file for each order between 5 and 1025. This is work in progress and the census will be expanded in the following weeks with more information about the graphs and how they were generated.
+
+          </p>
+        </details>
+  
         <br>
         <h4>Edge-transitive Graphs of Fixed Valence</h4>
         <hr>
@@ -156,6 +169,7 @@
         <div class="box news">
           <h4>News:</h4>
           <ul>
+            <li><span class="date">6th April 2025</span>: Tetravelent Cayley graph census was added. It currently goes up to order 1025.</li>
             <li><span class="date">3rd Januar 2025</span>: Cubic Cayley graph census was extended up to order 5000.</li>
             <li><span class="date">21st December 2024</span>: <a href="https://github.com/rhysje00/graphsym">The GraphSym package</a> for GAP is now available.</li>
             <li><span class="date">9th July 2024</span>: A census of cubic Cayley graphs on up to 4094 vertices was added.</li>
